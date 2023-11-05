@@ -21,6 +21,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 header {
     position: fixed;
@@ -394,6 +395,14 @@ form textarea {
     #menu-icon {
         display: block;
     }
+    .home-text {
+        font-size: 2.7rem;
+        letter-spacing: 1px;
+        whitespace: wrap;
+        margin: 20px 0px;
+    }
+    .portfolio-content {
+        grid-template-columns: repeat(1, fr);
     .navbar {
         position: absolute;
         top: -600px;
